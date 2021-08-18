@@ -1,0 +1,59 @@
+
+body{
+  font-family:Noto Sans TC, serif;;
+  font-weight:400;
+  color:#000;
+}
+.bg {
+ background-repeat: no-repeat;
+  height:100%;
+  background-position: center;
+  background-size:cover;
+}
+header {
+  text-align: center;
+}
+h1{
+  font-family:Merriweather;
+  font-weight:400;
+  line-height: 2.5rem;
+  font-size: 3rem;
+  padding-bottom:10px;
+}
+label {
+  display:flex;
+}
+
+.submit-btn{
+  width:100%;
+  margin-bottom:5%;
+}
+.submit-btn:hover {
+  transform: scale(1.1);
+}
+/* container */
+.container {
+  max-width:700px;
+  padding-top:5%;
+}
+#description {
+  font-size: 1.5rem;
+  line-height:1.2;
+}
+.form-group {
+  margin:10px auto;
+}
+.form-control {
+  width:100%;
+  margin: 10px auto 10px auto;
+}
+
+.radio-input {
+  min-height:15px;
+  min-width:15px;
+  margin:5px;
+}
+.input-textarea{
+  width:100%;
+  min-height: 210px;
+}
